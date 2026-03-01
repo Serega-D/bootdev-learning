@@ -1,2 +1,25 @@
-goFirstProject/pokedexcli
+# Ignore compiled binary files 
+**/pokedexcli
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 
+# Ignore local logs
+**/repl.log
+
+# ignore dependency folders (if they appear)
+**/vendor/
+
+# sistem files
+.DS_Store
+
+# Ignore all files without expansion (often binaries in Linux)
+pokedex-cli/pokedex-cli
+hellogo/hellogo
+datetest/datetest
+
+# or just by names
+pokedexcli
+repl.log
